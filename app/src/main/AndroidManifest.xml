@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mcad_pracs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MCAD Practicals"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MCAD_Pracs">
+        <activity
+            android:name=".Questionnaire1"
+            android:exported="false" />
+        <activity
+            android:name=".Practical5_Absolute"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical5_Frame"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical5_Table"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical5_Relative"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical5_Linear"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical9_1"
+            android:exported="false" />
+        <activity
+            android:name=".Practical9"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical27"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Index2"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Index"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Practical23"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical12"
+            android:exported="true">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical16"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical26_1"
+            android:exported="false" />
+        <activity
+            android:name=".Practical26"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical25"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical24"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical22"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical19_1"
+            android:exported="false" />
+        <activity
+            android:name=".Practical19"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical21"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical20"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical18"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical17_1"
+            android:exported="false" />
+        <activity
+            android:name=".Practical17"
+            android:exported="false" />
+        <activity
+            android:name=".Practical15"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical14"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical13_1"
+            android:exported="false" />
+        <activity
+            android:name=".Practical13"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical11_1"
+            android:exported="false" />
+        <activity
+            android:name=".Practical11"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical10"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical8_1"
+            android:exported="false" />
+        <activity
+            android:name=".Practical8"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical7"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical6"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical3"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+        <activity
+            android:name=".Practical4"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Index" />
+        </activity>
+    </application>
+
+</manifest>

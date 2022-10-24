@@ -1,0 +1,15 @@
+<resources>
+    <style name="Bold">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:text">sans-serif</item>
+    </style>
+
+    <style name="Italic">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:text">sans-serif</item>
+    </style>
+</resources>

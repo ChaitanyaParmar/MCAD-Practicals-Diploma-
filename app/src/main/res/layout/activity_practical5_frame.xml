@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" >
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top 1"
+        android:textSize="15dp"
+        android:layout_gravity="top|left"
+        android:backgroundTint="#6e6e6e"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top 2"
+        android:textSize="15dp"
+        android:layout_gravity="top|center"
+        android:backgroundTint="#6e6e6e"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top 3"
+        android:textSize="15dp"
+        android:layout_gravity="top|end"
+        android:backgroundTint="#6e6e6e"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Center 1"
+        android:textSize="15dp"
+        android:layout_gravity="center|left"
+        android:backgroundTint="#6e6e6e"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Center 2"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#6e6e6e"/>
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Center 3"
+        android:textSize="15dp"
+        android:layout_gravity="center|right"
+        android:backgroundTint="#6e6e6e"/>
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottom 1"
+        android:textSize="15dp"
+        android:layout_gravity="bottom|left"
+        android:backgroundTint="#6e6e6e"/>
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottom 2"
+        android:textSize="15dp"
+        android:layout_gravity="bottom|center"
+        android:backgroundTint="#6e6e6e"/>
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottom 3"
+        android:textSize="15dp"
+        android:layout_gravity="bottom|right"
+        android:backgroundTint="#6e6e6e"/>
+</FrameLayout>
